@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+	<!-- Otomatik oynayan müzik -->
+    <audio autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Tarayıcınız bu ses öğesini desteklemiyor.
+    </audio>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Sahmaran <span>Bey</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">AnaSayfa</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="https://sahmerancheck.com.tr/">Forum</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="https://www.mediafire.com/file/b7voektvcl32lxn/A%25C9%25B4%25E1%25B4%2585%25CA%2580%25E1%25B4%258F%25C9%25AA%25E1%25B4%2585_C%25CA%2580%25E1%25B4%2580%25E1%25B4%2584%25E1%25B4%258B%25EA%259C%25B1.apk/file">Uygulama</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="https://www.instagram.com/sahmeranjpg/">İletişim</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">AnaSayfa</a>
+                <a href="https://sahmerancheck.com.tr/">Forum</a>
+                <a href="https://www.mediafire.com/file/b7voektvcl32lxn/A%25C9%25B4%25E1%25B4%2585%25CA%2580%25E1%25B4%258F%25C9%25AA%25E1%25B4%2585_C%25CA%2580%25E1%25B4%2580%25E1%25B4%2584%25E1%25B4%258B%25EA%259C%25B1.apk/file">Uygulama</a>
+                <a href="https://www.instagram.com/sahmeranjpg/">İletişim</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Selam Ben <span>Sahmaran</span></h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Bu uygulama SAHMARAN Tarafından inşa edilmiş olup, Halka ücretsiz olarak sunulmuştur. 
+Sizlerden para talep edenlere itibar etmeyip, Bizlere bildirmenizi rica ediyoruz.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/sahmeranjpg/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me+254779191657" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://sahmerancheck.com.tr/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-google"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
+                </div>
+            </div>
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="main.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0,});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
